@@ -508,8 +508,6 @@ project/
 
 ---
 
-# ❤️ Made For Developers
-
 
 # 🌐 Advanced HTML Guide
 
