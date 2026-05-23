@@ -1,13 +1,7 @@
-# 🌐 HTML Complete Guide — Beginner to Advanced
-
-HTML = HyperText Markup Language  
-Used to structure websites and web applications.
-
----
-
-# 📄 Basic HTML Document
-
-```html
+🌐 មគ្គុទេសក៍ HTML ពេញលេញ (ចាប់ពីកម្រិតដំបូង → កម្រិតខ្ពស់)
+HTML = HyperText Markup Language
+👉 ជាភាសាសម្រាប់បង្កើតរចនាសម្ព័ន្ធគេហទំព័រ (Website Structure)
+📄 1. រចនាសម្ព័ន្ធ HTML មូលដ្ឋាន
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,139 +12,71 @@ Used to structure websites and web applications.
 <body>
 
   <h1>Hello World</h1>
-  <p>My first website.</p>
+  <p>គេហទំព័រដំបូងរបស់ខ្ញុំ</p>
 
 </body>
 </html>
-```
+🧠 ពន្យល់
+<!DOCTYPE html> → ប្រកាសថាជា HTML5
+<html> → ឯកសារមូលដ្ឋាន (root)
+<head> → ព័ត៌មានមិនបង្ហាញលើអេក្រង់
+<body> → ខ្លឹមសារដែលអ្នកមើលឃើញ
+🧱 2. រចនាសម្ព័ន្ធ HTML
+Tag	អត្ថន័យ
+<html>	ឯកសារ HTML ទាំងមូល
+<head>	ផ្នែកព័ត៌មាន (metadata)
+<body>	ខ្លឹមសារនៅលើគេហទំព័រ
+🏷️ 3. ចំណងជើង (Headings)
+<h1>ចំណងជើងធំ</h1>
+<h2>ចំណងជើងរង</h2>
+<h3>ចំណងជើងតូច</h3>
+🧠 ពន្យល់
+<h1> ធំជាងគេ
+<h6> តូចជាងគេ
+👉 ប្រើសម្រាប់រៀបចំរចនាសម្ព័ន្ធ និង SEO
+✍️ 4. ការរៀបចំអក្សរ (Text Formatting)
+<b>អក្សរដិត</b>
+<strong>អត្ថន័យសំខាន់</strong>
 
----
+<i>អក្សរទ្រេត</i>
+<em>ការសង្កត់អត្ថន័យ</em>
 
-# 🧠 HTML Structure
+<u>គូសបន្ទាត់ក្រោម</u>
+<mark>អក្សរបន្លិច</mark>
 
-| Tag | Purpose |
-|------|----------|
-| `<!DOCTYPE html>` | HTML5 document |
-| `<html>` | Root element |
-| `<head>` | Metadata |
-| `<body>` | Website content |
-
----
-
-# 🏷️ Headings
-
-```html
-<h1>Main Heading</h1>
-<h2>Sub Heading</h2>
-<h3>Heading</h3>
-<h4>Heading</h4>
-<h5>Heading</h5>
-<h6>Smallest Heading</h6>
-```
-
----
-
-# ✍️ Text Formatting
-
-```html
-<b>Bold</b>
-<strong>Important</strong>
-
-<i>Italic</i>
-<em>Emphasis</em>
-
-<u>Underline</u>
-
-<mark>Highlight</mark>
-
-<small>Small Text</small>
-
-<del>Deleted</del>
-
-<sub>Subscript</sub>
-<sup>Superscript</sup>
-```
-
----
-
-# 🔗 Links
-
-```html
+<small>អក្សរតូច</small>
+<del>អក្សរលុប</del>
+👉 ប្រើសម្រាប់បង្ហាញអត្ថន័យផ្សេងៗនៃអក្សរ
+🔗 5. តំណភ្ជាប់ (Links)
 <a href="https://google.com">Google</a>
-
-<a href="about.html">About</a>
-
-<a href="#section">Go Section</a>
-
-<a href="mailto:test@gmail.com">Email</a>
-```
-
----
-
-# 🖼️ Images
-
-```html
-<img src="image.jpg" alt="Nature" width="300">
-```
-
-## Responsive Image
-
-```html
-<img src="image.jpg" alt="" style="max-width:100%;">
-```
-
----
-
-# 📋 Lists
-
-## Unordered List
-
-```html
+🧠 ពន្យល់
+href → តំណទៅកាន់ URL
+👉 ប្រើសម្រាប់បើកគេហទំព័រ ឬផ្នែកផ្សេងៗ
+🖼️ 6. រូបភាព (Images)
+<img src="image.jpg" alt="រូបធម្មជាតិ" width="300">
+🧠 ពន្យល់
+src → ទីតាំងរូបភាព
+alt → ពិពណ៌នារូបភាព (សំខាន់សម្រាប់ SEO និង accessibility)
+📋 7. បញ្ជី (Lists)
+បញ្ជីមិនមានលេខ
 <ul>
   <li>HTML</li>
   <li>CSS</li>
 </ul>
-```
-
-## Ordered List
-
-```html
+បញ្ជីមានលេខ
 <ol>
-  <li>Step 1</li>
-  <li>Step 2</li>
+  <li>ជំហានទី 1</li>
+  <li>ជំហានទី 2</li>
 </ol>
-```
-
-## Description List
-
-```html
-<dl>
-  <dt>HTML</dt>
-  <dd>Markup Language</dd>
-</dl>
-```
-
----
-
-# 📦 Containers
-
-## Div
-
-```html
-<div>Block Element</div>
-```
-
-## Span
-
-```html
-<span>Inline Element</span>
-```
-
----
-
-# 🧱 Semantic HTML
-
-```html
+👉 <ul> = បញ្ជីចំណុច
+👉 <ol> = បញ្ជីមានលំដាប់លេខ
+📦 8. ប្រអប់ (Containers)
+<div>ប្រអប់ Block</div>
+<span>អក្សរ Inline</span>
+🧠 ពន្យល់
+div → block (ចុះបន្ទាត់ថ្មី)
+span → inline (នៅជួរដដែល)
+🧱 9. Semantic HTML (សំខាន់)
 <header></header>
 <nav></nav>
 <main></main>
@@ -158,671 +84,128 @@ Used to structure websites and web applications.
 <article></article>
 <aside></aside>
 <footer></footer>
-```
-
-✅ Better SEO  
-✅ Better Accessibility  
-✅ Cleaner Structure
-
----
-
-# 📥 Forms
-
-```html
+🧠 ពន្យល់
+👉 ជួយឲ្យ browser និង Google យល់រចនាសម្ព័ន្ធ website
+📥 10. Form (បញ្ចូលទិន្នន័យ)
 <form>
 
-  <label>Username</label>
   <input type="text">
-
-  <label>Password</label>
   <input type="password">
 
-  <button type="submit">
-    Login
-  </button>
+  <button type="submit">ចូលប្រើ</button>
 
 </form>
-```
-
----
-
-# ☑️ Input Types
-
-```html
+🧠 ពន្យល់
+👉 ប្រើសម្រាប់ Login, Register, Contact form
+☑️ 11. ប្រភេទ Input
 <input type="text">
 <input type="email">
 <input type="password">
 <input type="number">
 <input type="date">
-<input type="file">
-<input type="checkbox">
-<input type="radio">
-<input type="range">
-<input type="color">
-```
-
----
-
-# ✅ Form Validation
-
-```html
-<input
-  type="email"
-  required
-  minlength="5"
-  maxlength="30"
->
-```
-
----
-
-# 📊 Tables
-
-```html
+👉 ប្រភេទផ្សេងៗសម្រាប់ទិន្នន័យផ្សេងៗ
+✅ 12. ការត្រួតពិនិត្យ Form
+<input type="email" required minlength="5">
+🧠 ពន្យល់
+required → ត្រូវបំពេញ
+minlength → អក្សរអប្បបរមា
+📊 13. តារាង (Tables)
 <table border="1">
 
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Age</th>
-    </tr>
-  </thead>
+  <tr>
+    <th>ឈ្មោះ</th>
+    <th>អាយុ</th>
+  </tr>
 
-  <tbody>
-    <tr>
-      <td>John</td>
-      <td>20</td>
-    </tr>
-  </tbody>
+  <tr>
+    <td>John</td>
+    <td>20</td>
+  </tr>
 
 </table>
-```
-
----
-
-# 🎵 Audio
-
-```html
+👉 ប្រើសម្រាប់ទិន្នន័យជាជួរដេក និងជួរឈរ
+🎵 14. សំឡេង និងវីដេអូ
 <audio controls>
   <source src="music.mp3">
 </audio>
-```
 
----
-
-# 🎬 Video
-
-```html
 <video controls width="400">
   <source src="video.mp4">
 </video>
-```
-
----
-
-# 🧩 Iframe
-
-```html
-<iframe
-  src="https://example.com"
-  width="500"
-  height="300">
-</iframe>
-```
-
----
-
-# 📌 Buttons
-
-```html
-<button>Click</button>
-```
-
----
-
-# 🎨 Add CSS
-
-```html
+👉 បញ្ចូល media ទៅក្នុងគេហទំព័រ
+🧩 15. Iframe
+<iframe src="https://example.com"></iframe>
+👉 បង្ហាញគេហទំព័រផ្សេងនៅក្នុង page
+🎯 16. ប៊ូតុង (Buttons)
+<button>ចុចទីនេះ</button>
+👉 ប្រើសម្រាប់ធ្វើសកម្មភាព
+🎨 17. ភ្ជាប់ CSS និង JS
 <link rel="stylesheet" href="style.css">
-```
-
----
-
-# ⚡ Add JavaScript
-
-```html
 <script src="script.js"></script>
-```
-
----
-
-# 📱 Responsive Meta Tag
-
-```html
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1.0">
-```
-
----
-
-# 🌍 SEO Meta Tags
-
-```html
-<meta name="description" content="My website">
-
-<meta name="keywords" content="HTML,CSS,JavaScript">
-
-<meta name="author" content="Your Name">
-```
-
----
-
-# 🚀 Open Graph Meta Tags
-
-```html
-<meta property="og:title" content="My Website">
-
-<meta property="og:description" content="Awesome site">
-
-<meta property="og:image" content="image.jpg">
-```
-
----
-
-# ♿ Accessibility
-
-```html
-<img src="cat.jpg" alt="Cute Cat">
-
-<button aria-label="Close Menu">
-  X
-</button>
-```
-
----
-
-# 🧠 HTML Entities
-
-```html
-&lt;   Less Than
-&gt;   Greater Than
-&amp;  Ampersand
-&nbsp; Space
-```
-
----
-
-# 📂 File Paths
-
-## Relative Path
-
-```html
-<img src="./images/photo.jpg">
-```
-
-## Absolute Path
-
-```html
-<img src="/images/photo.jpg">
-```
-
----
-
-# 🛠️ Advanced Semantic Layout
-
-```html
-<body>
-
-  <header></header>
-
-  <nav></nav>
-
-  <main>
-
-    <section>
-      <article></article>
-    </section>
-
-    <aside></aside>
-
-  </main>
-
-  <footer></footer>
-
-</body>
-```
-
----
-
-# ⚙️ Data Attributes
-
-```html
-<div data-id="101">
-  Product
-</div>
-```
-
----
-
-# 🧲 Lazy Loading
-
-```html
-<img
-  src="image.jpg"
-  loading="lazy"
-  alt="">
-```
-
----
-
-# 📡 HTML APIs
-
-## Geolocation
-
-```html
-navigator.geolocation.getCurrentPosition();
-```
-
-## Drag & Drop
-
-```html
-draggable="true"
-```
-
----
-
-# 🧪 Canvas
-
-```html
-<canvas id="game"></canvas>
-```
-
----
-
-# 🌐 SVG
-
-```html
-<svg width="100" height="100">
-
-  <circle
-    cx="50"
-    cy="50"
-    r="40"
-  />
-
-</svg>
-```
-
----
-
-# 🔥 Best Practices
-
-✅ Use semantic tags  
-✅ Use alt text  
-✅ Keep indentation clean  
-✅ Use lowercase tags  
-✅ Optimize images  
-✅ Validate forms  
-✅ Keep accessibility in mind
-
----
-
-# 📁 Recommended Project Structure
-
-```text
-project/
-│
-├── index.html
-├── pages/
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-└── assets/
-```
-
----
-
-# 🛠️ VS Code Extensions
-
-- Live Server
-- Prettier
-- Auto Rename Tag
-- HTML CSS Support
-- IntelliSense
-
----
-
-# 📚 Next To Learn
-
-1. HTML
-2. CSS
-3. Flexbox
-4. Grid
-5. JavaScript
-6. DOM
-7. React
-8. APIs
-
----
-
-
-# 🌐 Advanced HTML Guide
-
-Modern HTML structure and useful advanced elements.
-
----
-
-# ⚡ Advanced HTML5 Layout
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Modern Website">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="Your Name">
-
-  <title>Advanced HTML</title>
-
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <header>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-
-    <section>
-      <h1>Welcome</h1>
-      <p>Modern HTML Structure</p>
-    </section>
-
-    <article>
-      <h2>Article Title</h2>
-      <p>Article Content...</p>
-    </article>
-
-    <aside>
-      Sidebar Content
-    </aside>
-
-  </main>
-
-  <footer>
-    Copyright 2026
-  </footer>
-
-  <script src="script.js"></script>
-
-</body>
-</html>
-```
-
----
-
-# 🧠 SEO Meta Tags
-
-```html
-<meta name="description" content="Website Description">
-<meta name="keywords" content="HTML,CSS,JavaScript">
-<meta name="author" content="John Doe">
-```
-
-# 📱 Responsive Design
-
-```html
+👉 CSS = រចនាបថ
+👉 JS = តក្កវិជ្ជា (Logic)
+📱 18. Responsive Design
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
+👉 ឲ្យគេហទំព័រសមរម្យលើទូរស័ព្ទ
+🌍 19. SEO Meta Tags
+<meta name="description" content="គេហទំព័ររបស់ខ្ញុំ">
+<meta name="keywords" content="HTML,CSS">
+<meta name="author" content="ឈ្មោះអ្នក">
+👉 ជួយឲ្យ Google ស្វែងរកងាយ
+♿ 20. Accessibility (សម្រាប់អ្នកពិការ)
+<img src="cat.jpg" alt="ឆ្មាស្អាត">
 
-# 🎨 Favicon
-
-```html
-<link rel="icon" href="favicon.ico">
-```
-
-# 🔤 Google Fonts
-
-```html
-<link
-  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-  rel="stylesheet"
-/>
-```
-
-# 🧩 HTML Entities
-
-```html
-&lt;  = <
-&gt;  = >
-&amp; = &
-&nbsp; = space
-```
-
-# 📦 Data Attributes
-
-```html
-<div data-id="1" data-name="product">
-  Product
-</div>
-```
-
-# 🧠 Accessibility
-
-## Alt Text
-
-```html
-<img src="cat.jpg" alt="Cute Cat">
-```
-
-## Label
-
-```html
-<label for="email">Email</label>
-<input type="email" id="email">
-```
-
-# 📂 Iframe
-
-```html
-<iframe
-  src="https://example.com"
-  width="400"
-  height="300">
-</iframe>
-```
-
-# 📍 Progress Bar
-
-```html
-<progress value="70" max="100"></progress>
-```
-
-# 📈 Meter
-
-```html
-<meter value="0.8">80%</meter>
-```
-
-# 🔽 Details Dropdown
-
-```html
-<details>
-  <summary>Open</summary>
-  Hidden Content
-</details>
-```
-
-# ⏰ Time Tag
-
-```html
-<time datetime="2026-05-21">
-  May 21 2026
-</time>
-```
-
-# 🖱️ Button Types
-
-```html
-<button type="button">Button</button>
-<button type="submit">Submit</button>
-<button type="reset">Reset</button>
-```
-
-# 🧾 Advanced Forms
-
-```html
-<form>
-
-  <input
-    type="text"
-    required
-    minlength="3"
-    maxlength="20"
-  >
-
-  <input
-    type="email"
-    placeholder="Email"
-  >
-
-  <input
-    type="password"
-    required
-  >
-
-  <textarea rows="5"></textarea>
-
-  <select>
-    <option>HTML</option>
-    <option>CSS</option>
-  </select>
-
-  <button type="submit">
-    Submit
-  </button>
-
-</form>
-```
-
-# 📤 File Upload
-
-```html
-<input type="file">
-```
-
-# 🎯 Canvas
-
-```html
-<canvas id="canvas"></canvas>
-```
-
-# 📍 SVG
-
-```html
-<svg width="100" height="100">
-  <circle
-    cx="50"
-    cy="50"
-    r="40"
-  />
-</svg>
-```
-
-# 🔊 Embed YouTube
-
-```html
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/videoID">
-</iframe>
-```
-
-# ⚡ Lazy Loading
-
-```html
+<button aria-label="បិទ">X</button>
+👉 ជួយ screen reader អានបាន
+📂 21. File Path
+<img src="./images/photo.jpg">
+👉 relative path = ក្នុង project
+👉 absolute path = ពេញលេញ
+⚙️ 22. Data Attributes
+<div data-id="101"></div>
+👉 ប្រើសម្រាប់ផ្ទុក data សម្រាប់ JavaScript
+🧲 23. Lazy Loading
 <img src="image.jpg" loading="lazy">
-```
+👉 រូបភាព load ពេល scroll ដល់
+🧪 24. Elements ពិសេស
+Progress
+<progress value="70" max="100"></progress>
+Details
+<details>
+  <summary>បើកមើល</summary>
+  ខ្លឹមសារលាក់
+</details>
+🌐 25. SVG (រូប vector)
 
-# 🧠 Autocomplete
-
-```html
-<input
-  type="email"
-  autocomplete="on">
-```
-
-# 📌 Draggable
-
-```html
-<div draggable="true">
-  Drag Me
-</div>
-```
-
-# 🌙 Dark Mode Setup
-
-```html
-<body class="dark">
-```
-
-# 📁 Advanced Project Structure
-
-```text
+👉 មិនបាត់គុណភាពពេល zoom
+🔥 26. អនុសាសន៍ល្អបំផុត
+✅ ប្រើ semantic HTML
+✅ មាន alt text
+✅ code ស្អាត
+✅ រូបភាព optimize
+✅ បំបែក CSS និង JS
+✅ responsive design
+📁 27. រចនាសម្ព័ន្ធ Project
 project/
-│
 ├── index.html
-├── about.html
-├── contact.html
-│
 ├── css/
-│   └── style.css
-│
 ├── js/
-│   └── script.js
-│
 ├── images/
-│
 └── assets/
-```
-
-# 🚀 Best Practices
-
-✅ Use semantic HTML  
-✅ Keep indentation clean  
-✅ Use alt text  
-✅ Optimize images  
-✅ Separate CSS & JS  
-✅ Make responsive design  
-✅ Use accessible forms  
-✅ Validate HTML
-
-# 🛠️ Useful Tools
-
-- VS Code
-- Live Server
-- Chrome DevTools
-- Prettier
-- Emmet
-
-# 📚 Learn Next
-
-- CSS Flexbox
-- CSS Grid
-- JavaScript DOM
-- Responsive Design
-- React
-- Tailwind CSS
-
-# ❤️ Happy Coding
+👉 ធ្វើឲ្យ project មានរបៀបល្អ
+🛠️ 28. Tools
+VS Code
+Live Server
+Prettier
+Chrome DevTools
+Emmet
+🚀 29. អ្វីដែលគួររៀនបន្ទាប់
+CSS (Flexbox, Grid)
+JavaScript
+DOM
+React
+API
+❤️ សរុប
+👉 HTML = រចនាសម្ព័ន្ធ
+👉 CSS = រចនាបថ
+👉 JavaScript = តក្កវិជ្ជា និងសកម្មភាព
